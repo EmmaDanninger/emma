@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(79, 74, 59);
+    text-align: center;
+    
+}
+
+header {
+
+    background-image: url("header.png");
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 96px;
+    color: antiquewhite;
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Abril Fatface', serif;
+
+
+}
+
+h3 {
+    font-family: 'Zeyada', cursive;
+    font-style: italic;
+    color: antiquewhite;
+    margin: 0px;
+    font-size: 40px;
+}
+
+.header-with-name {
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.twobox-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-with-image {
+    height: 360px;
+    width: 600px;
+    background-image: url("glasses.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.box-without-image {
+    background-color: rgb(36, 35, 35);
+    height: 360px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.article-collection {
+    background-color: #f4f3e3;
+    width: 1200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reflection-article {
+    width:1064px;
+    text-align: center;
+
+}
+
+.reflectionhead {
+     color: rgb(36, 35, 35);
+}
+
+hr.lineone {
+    border: 2px solid rgb(51, 75, 51);
+    border-radius: 5px;
+    width: 135px;
+}
+
+hr.linetwo {
+    border: 2px solid rgb(73, 46, 54);
+    border-radius: 5px;
+    width: 135px;
+
+}
+
+.footer {
+    background-color: rgb(36, 35, 35);
+    height: 373px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.socmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    
+}
+
+footer {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+p.end-text {
+    color: antiquewhite;
+}
+
+p.heart {
+    color:rgb(228, 79, 79);
+}
