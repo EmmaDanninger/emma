@@ -10,6 +10,7 @@ header {
 
     background-image: url("header.png");
     height: 640px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +28,7 @@ main {
 
 h1 {
     font-size: 70px;
+    line-height: 0,5px;
     color: antiquewhite;
     font-family: 'Abril Fatface', serif;
     text-align: center;
@@ -45,15 +47,23 @@ h3 {
     font-family: 'Zeyada', cursive;
     font-style: italic;
     color: antiquewhite;
-    margin: 0px;
-    font-size: 40px;
+    margin: 12px;
+    text-align: right;
+   font-size: 40px;
 }
+
+
+img {
+    margin-left: 5px; 
+    width: 300px; 
+}
+
+
 
 .header-with-name {
     line-height: 0px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
 }
 
@@ -66,11 +76,10 @@ h3 {
 .box-with-image {
     height: 360px;
     width: 600px;
-    background-image: url("glasses.png");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    background-image: url("vaxtiqapp.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    background-position: center;
 
 }
 
@@ -85,7 +94,7 @@ h3 {
 
 }
 
-.article-collection {
+.main-bodyn {
     background-color: #f4f3e3;
     width: 1200px;
     padding-bottom: 50px;
@@ -96,54 +105,24 @@ h3 {
 
 }
 
-.reflection-article {
+.github-article {
     width:1064px;
     text-align: center;
 
 }
 
-.reflectionhead {
+.githubhead {
      color: rgb(36, 35, 35);
 }
 
-hr.lineone {
+hr.line {
     border: 2px solid rgb(51, 75, 51);
     border-radius: 5px;
     width: 135px;
 }
 
-hr.linetwo {
-    border: 2px solid rgb(73, 46, 54);
-    border-radius: 5px;
-    width: 135px;
-
-}
-
-.footer {
-    background-color: rgb(36, 35, 35);
-    height: 373px;
-    width: 1200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
 
 
-.socmed {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.icon {
-    width: 50px;
-    height: 50px;
-    padding: 20px;
-    
-}
 
 footer {
     margin: 40px;
